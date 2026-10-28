@@ -1,7 +1,3 @@
-<!-- PORTFOLIO-CONTEXT:BEGIN -->
-> Fork de estudo de [OWASP WebGoat](https://github.com/WebGoat/WebGoat). O código e a documentação abaixo pertencem ao projeto original; este fork não é apresentado como criação própria. Licenças e avisos upstream permanecem preservados.
-<!-- PORTFOLIO-CONTEXT:END -->
-
 # Multi language support in WebGoat
 
 WebGoat is mainly written in English, but it does support multiple languages.
@@ -18,7 +14,7 @@ WebGoat is mainly written in English, but it does support multiple languages.
 
 The following steps are required when you want to add a new language
 
-1. Update `main_new.html` (legacy path absent from this checkout; review the current [translation resources](src/main/resources/i18n) before following this historical guide)
+1. Update [main_new.html](src/main/resources/webgoat/static/main_new.html)
    1. Add the parts for showing the flag and providing the correct value for the flag= parameter
       2.
 2. Add a flag image to src/main/resources/webgoat/static/css/img
